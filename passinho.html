@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='passinho.js' defer></script>
+    <link rel="stylesheet" href="passinho.css">
+    <title>Criptografia</title>
+</head>
+<body>
+    <h1>Criptografia </h1>
+    
+        Digite o texto abaixo:<br>
+
+        <textarea rows=6 style="width: 30em" id="msg"></textarea>        
+        <button  id="btn">Codificar mensagem</button>     <!-- type="button" -->
+        <p><select name="Cifra de César" id="seletor">
+            <option value="cifra">Cifra de Cesar</option>
+            <option value="base64">Base64</option>
+        </select></p>
+        
+        <input type="text" name="incremento" size="1" maxlength="4" id="inc"> Incremento</input><br>
+
+        <input type="radio" id="Codificar" name="cod" value="Codificar" >
+        <label for="Codificar">Codificar</label><br>
+        <input type="radio" id="Decodificar" name="cod" value="Decodificar">
+        <label for="Decodificar">Decodificar</label><br>
+        
+        Mensagem decodificada<br>
+        <textarea rows=6 style="width:30em" name="trad" id="trad"></textarea>
+
+    
+    
+</body>
+</html>
